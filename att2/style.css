@@ -1,0 +1,89 @@
+*{
+    font-family:cursive;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+#tabela{
+    position: absolute;
+    left: 20px;
+    top: 100px;
+    width: 360px;
+    height: 250px;
+    border: solid rgb(240, 226, 221);
+    border-radius: 5px;
+    text-align: center;
+}
+
+#titulos{
+    background-color: rgb(240, 148, 209);
+    color: rgb(128, 3, 86);
+}
+
+#dias{
+    background-color: rgb(190, 221, 248);
+}  
+
+#h1{
+    font-size: 40px;
+    text-align: start;
+    color: rgb(99, 73, 248);
+}
+
+#container{
+    position: absolute;
+    width: 300px;
+    height: 380px;
+    left: 450px;
+    top: 90px;
+    border-radius: 10px;
+    background-color: rgb(245, 159, 212);
+    border: solid rgb(243, 216, 220);
+}
+
+#label{
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+}
+
+#dataEspecifica, #dataInicio, #dataFinal{
+    position: absolute;
+    left: 50px;
+    width: 200px;
+    height: 25px;
+}
+
+#botao1, #botao2{
+    position: relative;
+    left: 110px;
+    cursor: pointer;
+    width: 70px;
+    height: 30px;
+    font-weight: 600;
+    background-color:  antiquewhite;
+    color: rgb(107, 4, 76);
+    border: solid 1px;
+    border-radius: 5px;
+}
+
+#botao2{
+    top: 45px;
+}
+
+#botao3{
+    position: absolute;
+    top: 280px;
+    left: -360px;
+    width: 200px;
+    height: 30px;
+    font-weight: 600;
+    background-color:  antiquewhite;
+    color: rgb(107, 4, 76);
+    border: solid 1px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+

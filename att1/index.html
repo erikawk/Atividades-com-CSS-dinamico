@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa de Nomes</title>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <fieldset id="containerPrincipal">
+        <br>
+        <label for="pesquisa" id="legenda">Pesquisar por um nome: </label>
+        <br>
+        <br>
+        <input type="text" id="pesquisa" placeholder="Ex.: Amanda" autocomplete="off">
+        <button id="botao1" onclick="pesquisar()">Pesquisar</button>
+        <br>
+        <ol>
+            <li class="nome">Amanda</li>
+            <li class="nome">Bianca</li>
+            <li class="nome">Caio</li>
+            <li class="nome">Diana</li>
+            <li class="nome">Enzo</li>
+        </ol>
+        <form action="index.html">
+            <button id="botao2">Limpar pesquisa</button>
+        </form>
+    </fieldset>
+</body>
+
+</html>

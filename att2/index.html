@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendário dinâmico</title>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="h1">Calendário dinâmico</h1>
+    <table id="tabela">
+        <tr id="titulos">
+            <th>Dom</th>
+            <th>Seg</th>
+            <th>Ter</th>
+            <th>Qua</th>
+            <th>Qui</th>
+            <th>Sex</th>
+            <th>Sab</th>
+        </tr>
+        <tr id="dias">
+            <td></td>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr id="dias">
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+            <td>10</td>
+            <td>11</td>
+            <td>12</td>
+            <td>13</td>
+        </tr>
+        <tr id="dias">
+            <td>14</td>
+            <td>15</td>
+            <td>16</td>
+            <td>17</td>
+            <td>18</td>
+            <td>19</td>
+            <td>20</td>
+        </tr>
+        <tr id="dias">
+            <td>21</td>
+            <td>22</td>
+            <td>23</td>
+            <td>24</td>
+            <td>25</td>
+            <td>26</td>
+            <td>27</td>
+        </tr>
+        <tr id="dias">
+            <td>28</td>
+            <td>29</td>
+            <td>30</td>
+            <td>31</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+   
+    <br>
+    <fieldset id="container">
+        <label id="label" for="dataEspecifica">Escolher data específica:</label>
+        <br>
+        <br>
+        <input type="number" id="dataEspecifica" placeholder="Ex.: 17">
+        <br>
+        <br>
+        <button id="botao1" onclick="procuraData()">Definir</button>
+        <br>
+        <br>
+        <label id="label"  for="dataInicio">Data de início: </label>
+        <br>
+        <br>
+        <input type="number" id="dataInicio" placeholder="Ex.: 12">
+        <br>
+        <br>
+        <label id="label"  for="dataFinal">Data final: </label>
+        <br>
+        <br>
+        <input type="number" id="dataFinal" placeholder="Ex.: 15">
+        <button id="botao2" onclick="procuraDiferencaDias()">Definir</button>
+        <br>
+        <br>
+        <form action="index.html">
+            <button id="botao3">Limpar</button>
+        </form>
+    
+        <div id="mostraDiferenca"></div>
+    </fieldset>
+
+</body>
+</html>

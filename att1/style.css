@@ -1,0 +1,49 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background-color: rgb(222, 219, 250);
+}
+
+
+#containerPrincipal{
+    position: absolute;
+    left: 500px;
+    top: 150px;
+    width: 300px;
+    height: 250px;
+    background-color: rgb(197, 153, 238);
+    border-radius: 10px;
+    border: solid rgb(236, 160, 211);
+}
+
+#legenda{
+    font-size: 18px;
+    font-weight: bold;   
+    color: rgb(253, 251, 255);
+}
+
+.nome{
+    color: aliceblue;
+    font-size: 18px;
+}
+
+#pesquisa{
+    width: 150px;
+    height: 20px;
+}
+
+#botao2{
+    position: relative;
+    left: 80px;
+}
+
+#botao1, #botao2{
+    cursor: pointer;
+    height: 25px;
+}
+
+.nome{
+    font-weight: 400;
+}
